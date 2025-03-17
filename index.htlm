@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Partei Website</title>
+    <style>
+        /* Einfaches Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem 0;
+            background-color: white;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen bei unserer Partei!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#topics">Themen</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>Wir sind eine Partei, die sich für die Zukunft einsetzt und für Gerechtigkeit und Wohlstand sorgt. Wir streben nach einer besseren Gesellschaft für alle.</p>
+    </section>
+
+    <section id="topics">
+        <h2>Themen</h2>
+        <p>Unsere Hauptthemen sind Umweltschutz, Bildung, und soziale Gerechtigkeit. Wir kämpfen für eine nachhaltige und gerechte Zukunft für alle.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Du kannst uns über unsere Social-Media-Kanäle erreichen oder eine E-Mail an kontakt@partei.de senden.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Meine Partei</p>
+    </footer>
+</body>
+</html>
