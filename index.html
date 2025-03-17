@@ -1,3 +1,31 @@
+   <p>&copy; 2025 AFO - Alternative für Obertrum. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script>
+        // Modal öffnen
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = "block";
+        }
+
+        // Modal schließen
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+        }
+
+        // Wenn der Benutzer außerhalb des Modals klickt, wird es geschlossen
+        window.onclick = function(event) {
+            var modals = document.getElementsByClassName('modal');
+            for (var i = 0; i < modals.length; i++) {
+                if (event.target === modals[i]) {
+                    modals[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -56,10 +84,7 @@
     <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Willkommen bei AFO - Alternative für Obertrum</title>
-    <style>
+   
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -360,30 +385,4 @@
     </div>
 
     <footer>
-        <p>&copy; 2025 AFO - Alternative für Obertrum. Alle Rechte vorbehalten.</p>
-    </footer>
-
-    <script>
-        // Modal öffnen
-        function openModal(modalId) {
-            document.getElementById(modalId).style.display = "block";
-        }
-
-        // Modal schließen
-        function closeModal(modalId) {
-            document.getElementById(modalId).style.display = "none";
-        }
-
-        // Wenn der Benutzer außerhalb des Modals klickt, wird es geschlossen
-        window.onclick = function(event) {
-            var modals = document.getElementsByClassName('modal');
-            for (var i = 0; i < modals.length; i++) {
-                if (event.target === modals[i]) {
-                    modals[i].style.display = "none";
-                }
-            }
-        }
-    </script>
-
-</body>
-</html>
+     
